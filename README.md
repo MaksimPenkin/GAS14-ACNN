@@ -9,7 +9,7 @@
         **--datalist** PATH_TO_TRAIN_DATALIST
         **--val_datalist** PATH_TO_VALIDATION_DATALIST
         **--restore_ckpt** INITIAL_CHECKPOINT_NUMBER_FOR_TRANSFER_LEARNING
-4. Script will save learning process into **checkpoints/YOUR_MODEL**. Code will save latest checkpoint and ***best*** checkpoint in terms of PSNR metric.
+4. Script will save learning process into **checkpoints/YOUR_MODEL**. Code will save ***latest checkpoint*** and ***best*** checkpoint in terms of PSNR metric.
 
 ## How to test
 1. Select desired model from **checkpoints** folder. 
@@ -23,7 +23,6 @@
 
 ## Requirements
 * python 3.7.3
-
 * absl-py==0.9.0
 * astor==0.8.1
 * cycler==0.10.0
