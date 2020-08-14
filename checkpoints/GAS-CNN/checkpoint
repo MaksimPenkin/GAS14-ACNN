@@ -1,0 +1,6 @@
+model_checkpoint_path: "degibbs.model-801108"
+all_model_checkpoint_paths: "degibbs.model-780164"
+all_model_checkpoint_paths: "degibbs.model-785400"
+all_model_checkpoint_paths: "degibbs.model-790636"
+all_model_checkpoint_paths: "degibbs.model-795872"
+all_model_checkpoint_paths: "degibbs.model-801108"
