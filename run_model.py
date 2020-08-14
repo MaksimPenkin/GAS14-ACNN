@@ -19,13 +19,13 @@ def parse_args():
     parser.add_argument('--phase', type=str, default='test', help='determine whether to train or test model')
     parser.add_argument('--checkpoints', type=str, default='checkpoints/GAS14-ACNN', help='checkpoint dir')
     parser.add_argument('--datalist', type=str,
-                        default=r"E:\IXI_0_1_lowpass\train\train.txt", # Enter FULL path to train *.txt file
+                        default="IXI/train/train.txt", # Enter FULL path to train *.txt file
                         help='training datalist')
     parser.add_argument('--val_datalist', type=str,
-                        default=r"E:\IXI_0_1_lowpass\val\val.txt", # Enter FULL path to validation *.txt file
+                        default="IXI/val/val.txt", # Enter FULL path to validation *.txt file
                         help='validating datalist')
     parser.add_argument('--test_datalist', type=str,
-                        default=r"E:\IXI_0_1_lowpass\test\test.txt", # Enter FULL path to test *.txt file
+                        default="IXI/test/test.txt", # Enter FULL path to test *.txt file
                         help='testing datalist')
 
     parser.add_argument('--restore_ckpt', type=int, default=0, help='step for restoring weights of model')
@@ -44,7 +44,7 @@ def parse_args():
 
     parser.add_argument('--input_path', type=str, default='./testing_set',
                         help='input path for testing/validation corrupted images')
-    parser.add_argument('--output_path', type=str, default="./testing_res",
+    parser.add_argument('--output_path', type=str, default="",
                         help='output path for testing/validation cnn-processed images')
 
     args = parser.parse_args()
