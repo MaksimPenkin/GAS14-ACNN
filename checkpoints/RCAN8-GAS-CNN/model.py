@@ -1,5 +1,5 @@
 """ 
- @author   Maxim Penkin
+ @author   Maksim Penkin
 https://github.com/MaksimPenkin
 
 """
